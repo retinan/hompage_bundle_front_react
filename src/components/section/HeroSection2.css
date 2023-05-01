@@ -1,0 +1,27 @@
+#slide-link a {
+    color:#222222;
+}
+#slide-link a.active {
+    border-bottom: 5px solid #222
+}
+
+/*.bg-common {*/
+/*    filter: blur(10px); !* 초기에 이미지를 흐리게 만듭니다. *!*/
+/*    animation: slide-background 1s ease-in-out forwards; !* 애니메이션 적용 *!*/
+/*}*/
+
+/*!* 애니메이션 키프레임 *!*/
+/*@keyframes slide-background {*/
+/*    0% {*/
+/*        filter: blur(10px); !* 초기 이미지를 흐리게 만듭니다. *!*/
+/*        transform: scale(1.1); !* 초기 이미지를 확대합니다. *!*/
+/*    }*/
+/*    50% {*/
+/*        filter: blur(5px); !* 중간에 이미지를 약간 흐리게 만듭니다. *!*/
+/*        transform: scale(1.05); !* 중간에 이미지를 약간 확대합니다. *!*/
+/*    }*/
+/*    100% {*/
+/*        filter: none; !* 이미지를 뚜렷하게 만듭니다. *!*/
+/*        transform: scale(1); !* 이미지를 원래 크기로 되돌립니다. *!*/
+/*    }*/
+/*}*/

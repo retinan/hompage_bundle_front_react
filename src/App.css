@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+body #root * {
+    /*border: 1px solid #61dafb;*/
+    font-family: 'Noto Sans KR', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+nav .navbar-toggler {
+    border:none;
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+#root p {
+    line-height: 1.5rem;
+}
+
+.fs-0-up {
+    font-size: calc(4rem + 3vw) !important;
+    font-weight:900
+}
+
+.fs-1-up {
+    font-size: calc(3rem + 2vw) !important;
+}
+
+.fs-2-up {
+    font-size: calc(2.375rem + .9vw) !important;
+}
+
+.fs-3-up {
+    font-size: calc(2.2rem + .6vw) !important;
+}
+
+/*#root h2 {font-size:3em;}*/
+
+.bg-gray900 {
+    background-color: var(--bs-gray-900);
+}
+
+
+.bg-common {
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.slideanim {visibility:hidden;}
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+
+@media screen and (max-width: 48rem) {
+
+}
